@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Common", "Game.Common\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Main", "Game.Main\Game.Main.csproj", "{49EEFBAA-252C-4AA6-BCC1-27A53EF9B572}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game.Test", "Game.Test", "{43968656-1A57-4B28-BE57-F3F96D81FAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavannahTests", "SavannahTests\SavannahTests.csproj", "{A834DDBD-9651-4BEC-9A5C-4E6AEE77044B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{49EEFBAA-252C-4AA6-BCC1-27A53EF9B572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49EEFBAA-252C-4AA6-BCC1-27A53EF9B572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49EEFBAA-252C-4AA6-BCC1-27A53EF9B572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A834DDBD-9651-4BEC-9A5C-4E6AEE77044B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A834DDBD-9651-4BEC-9A5C-4E6AEE77044B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A834DDBD-9651-4BEC-9A5C-4E6AEE77044B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A834DDBD-9651-4BEC-9A5C-4E6AEE77044B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A834DDBD-9651-4BEC-9A5C-4E6AEE77044B} = {43968656-1A57-4B28-BE57-F3F96D81FAF3}
 	EndGlobalSection
 EndGlobal
