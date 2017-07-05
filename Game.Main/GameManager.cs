@@ -1,4 +1,5 @@
 ﻿
+using SavannahGames.Game.AnimalBehavior;
 using SavannahGames.Game.AnyAnimals;
 using SavannahGames.Game.Common;
 using SavannahGames.Game.Interfaces;

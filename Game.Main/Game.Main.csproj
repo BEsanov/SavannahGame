@@ -60,6 +60,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Game.AnimalBehavior\Game.AnimalBehavior.csproj">
+      <Project>{4ee79af7-b5d6-4948-ad09-490d0ca05b57}</Project>
+      <Name>Game.AnimalBehavior</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Game.AnyAnimals\Game.AnyAnimals.csproj">
       <Project>{8f1bc40f-39c4-4e9e-b704-2102b5d003b5}</Project>
       <Name>Game.AnyAnimals</Name>

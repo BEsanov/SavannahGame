@@ -48,6 +48,12 @@
     <Compile Include="Geometry\Vector2Double.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Game.Constant\Game.Constant.csproj">
+      <Project>{09237731-e914-4d0d-931e-282f40090409}</Project>
+      <Name>Game.Constant</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

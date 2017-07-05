@@ -1,7 +1,7 @@
 ﻿using SavannahGames.Game.Models;
 using System;
 
-namespace SavannahGames.Game.Common
+namespace SavannahGames.Game.AnimalBehavior
 {
     public class BirthEventArgs : EventArgs
     {

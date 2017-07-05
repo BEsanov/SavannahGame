@@ -22,7 +22,7 @@ namespace SavannahGames.Game.Main
             For<IBuilder>().Use<Builder>();
             For<IFieldView>().Use<FieldView>();
             For<ISymbolProvider>().Use<AnimalSymbolProvider>();
-            //For<IEmptyCellProvider>().Use<EmptyCellProvider>();
+            For<IEmptyCellProvider>().Use<EmptyCellProvider>();
         }
     }
 }

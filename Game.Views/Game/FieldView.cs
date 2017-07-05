@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using SavannahGames.Game.Interfaces;
 using SavannahGames.Game.Models;
+using SavannahGames.Game.AnimalBehavior;
 
 namespace SavannahGames.Game.Views
 {

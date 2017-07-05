@@ -52,6 +52,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Game.AnimalBehavior\Game.AnimalBehavior.csproj">
+      <Project>{4ee79af7-b5d6-4948-ad09-490d0ca05b57}</Project>
+      <Name>Game.AnimalBehavior</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Game.Common\Game.Common.csproj">
       <Project>{192d3bcf-795f-4042-ac2e-32519e54d7db}</Project>
       <Name>Game.Common</Name>

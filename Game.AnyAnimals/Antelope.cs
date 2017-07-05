@@ -3,6 +3,8 @@ using System;
 using SavannahGames.Game.Common;
 using SavannahGames.Game.Interfaces;
 using SavannahGames.Game.Models;
+using SavannahGames.Game.AnimalBehavior;
+
 namespace SavannahGames.Game.AnyAnimals
 {
     public class Antelope : AbstractAnimal

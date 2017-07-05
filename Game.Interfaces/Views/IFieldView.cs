@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using SavannahGames.Game.AnimalBehavior;
+using System.Collections.Generic;
 
 
-namespace SavannahGames.Game.Common
+namespace SavannahGames.Game.Interfaces
 {
     public interface IFieldView
     {

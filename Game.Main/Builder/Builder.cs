@@ -4,6 +4,7 @@ using SavannahGames.Game.Models;
 using SavannahGames.Game.Common;
 using SavannahGames.Game.AnyAnimals;
 using SavannahGames.Game.Interfaces;
+using SavannahGames.Game.AnimalBehavior;
 
 namespace SavannahGames.Game.Main
 {

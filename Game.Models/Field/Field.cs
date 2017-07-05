@@ -1,4 +1,8 @@
 ﻿
+//using SavannahGames.Game.Common;
+
+using SavannahGames.Game.Common;
+
 namespace SavannahGames.Game.Models
 {
     public class Field<T>

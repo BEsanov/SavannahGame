@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animals\IAnimal.cs" />
     <Compile Include="Fields\IBorderChecker.cs" />
     <Compile Include="Animals\ICellProvider.cs" />
     <Compile Include="Facades\IConsoleInput.cs" />
@@ -56,6 +55,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Game.AnimalBehavior\Game.AnimalBehavior.csproj">
+      <Project>{4ee79af7-b5d6-4948-ad09-490d0ca05b57}</Project>
+      <Name>Game.AnimalBehavior</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Game.Models\Game.Models.csproj">
       <Project>{4c66c3c6-293f-4cf5-a2e3-0dd757e5296c}</Project>
       <Name>Game.Models</Name>

@@ -2,7 +2,7 @@
 using SavannahGames.Game.Models;
 using System;
 
-namespace SavannahGames.Game.Interfaces
+namespace SavannahGames.Game.AnimalBehavior
 {
     public interface IAnimal
     {
