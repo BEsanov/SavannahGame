@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="StructureMap, Version=4.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StructureMap.4.5.1\lib\net45\StructureMap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,16 +47,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\Builder.cs" />
+    <Compile Include="Builder\DefaultRegistry.cs" />
+    <Compile Include="Builder\IBuilder.cs" />
+    <Compile Include="EmptyCellProvider.cs" />
+    <Compile Include="GameManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Game.AnyAnimals\Game.AnyAnimals.csproj">
+      <Project>{8f1bc40f-39c4-4e9e-b704-2102b5d003b5}</Project>
+      <Name>Game.AnyAnimals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Common.Logic\Game.Common.Logic.csproj">
+      <Project>{5ad412eb-6cf5-4a5b-b483-92d083ea4add}</Project>
+      <Name>Game.Common.Logic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Game.Common\Game.Common.csproj">
       <Project>{192d3bcf-795f-4042-ac2e-32519e54d7db}</Project>
       <Name>Game.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Interfaces\Game.Interfaces.csproj">
+      <Project>{956f30e8-3038-487a-a567-65c31518bf88}</Project>
+      <Name>Game.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Models\Game.Models.csproj">
+      <Project>{4c66c3c6-293f-4cf5-a2e3-0dd757e5296c}</Project>
+      <Name>Game.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Game.Views\Game.Views.csproj">
+      <Project>{ff6648ed-3bc0-45a1-93e7-8352e4889034}</Project>
+      <Name>Game.Views</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

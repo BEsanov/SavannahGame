@@ -1,5 +1,5 @@
-﻿using System;
-
+﻿using SavannahGames.Game.Models;
+using System;
 
 namespace SavannahGames.Game.Common
 {

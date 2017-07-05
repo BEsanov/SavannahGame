@@ -1,5 +1,4 @@
-﻿using SavannahGames.Game.Common;
-
+﻿
 namespace SavannahGames.Game.Main
 {
     class Program

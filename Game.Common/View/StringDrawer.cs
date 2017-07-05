@@ -1,5 +1,5 @@
 ﻿using System.Text;
-
+using SavannahGames.Game.Interfaces;
 namespace SavannahGames.Game.Common
 {
     public class StringDrawer : IStringDrawer

@@ -1,9 +1,9 @@
-﻿
+﻿using SavannahGames.Game.Common;
 using SavannahGames.Game.Interfaces;
 using SavannahGames.Game.Models;
 using System.Collections.Generic;
 
-namespace SavannahGames.Game.Common
+namespace SavannahGames.Game.Main
 {
     public class EmptyCellProvider : IEmptyCellProvider
     {

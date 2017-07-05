@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{192D3BCF-795F-4042-AC2E-32519E54D7DB}</ProjectGuid>
+    <ProjectGuid>{FF6648ED-3BC0-45A1-93E7-8352E4889034}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Game.Common</RootNamespace>
-    <AssemblyName>Game.Common</AssemblyName>
+    <RootNamespace>Game.Views</RootNamespace>
+    <AssemblyName>Game.Views</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -29,15 +29,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Conditions, Version=2.1.0.24, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Conditions.2.1.0\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10\Conditions.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="StructureMap, Version=4.5.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StructureMap.4.5.1\lib\net45\StructureMap.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,16 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behaviors\BirthEventArgs.cs" />
-    <Compile Include="View\Constants.cs" />
+    <Compile Include="Console\ConsoleInput.cs" />
+    <Compile Include="Console\ConsoleOutput.cs" />
+    <Compile Include="Console\ConsoleWindow.cs" />
+    <Compile Include="Game\AnimalSymbolProvider.cs" />
+    <Compile Include="Game\FieldView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\EmptyCellProvider.cs" />
-    <Compile Include="View\StringDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\Game.Common\Game.Common.csproj">
+      <Project>{192d3bcf-795f-4042-ac2e-32519e54d7db}</Project>
+      <Name>Game.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Game.Interfaces\Game.Interfaces.csproj">
       <Project>{956f30e8-3038-487a-a567-65c31518bf88}</Project>
       <Name>Game.Interfaces</Name>
